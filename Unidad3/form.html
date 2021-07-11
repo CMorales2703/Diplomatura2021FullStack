@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <div>Formulario</div>
+    <form action="">
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="nombre" />
+        </p>
+        <p>
+            <label for="sexo">Sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" name="sexo" value="hombre">
+                    <label>Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" value="mujer">
+                    <label>Mujer</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" value="otro">
+                    <label>Otro</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="mail">E-mail</label>
+            <input type="text" name="email" />
+        </p>
+
+        <p>
+            <label for="comm">Comentario</label>
+            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+</html>
