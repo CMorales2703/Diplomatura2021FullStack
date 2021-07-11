@@ -1,0 +1,48 @@
+body {
+    
+    background-image:url(img/backg.jpg);
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+h3, label {
+    text-transform: uppercase;
+    color: white;
+}
+
+h4 {
+    color: whitesmoke;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+}
+contenido {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    display:flex;
+}
+
+.foto{
+    height: 500px; 
+    width: 500px;
+}
+
+.claseSeccion{
+
+    height: 500px; 
+    width: 500px;
+}
+.claseAside{
+    margin-left: 40px;
+    height: 500px; 
+    width: 500px;
+}
