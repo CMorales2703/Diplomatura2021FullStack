@@ -1,0 +1,92 @@
+
+h1,h3,h4,h5,li,p{
+    font-family: 'Encode Sans SC', sans-serif;
+}
+body {
+    
+    background-image:url(img/backg.jpg);
+}
+h1 {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 19px rgba(255,255,255,1);
+}
+/*
+.header {
+    width:max-content;
+}*/
+
+h3, label {
+    text-transform: uppercase;
+    color: white;
+}
+
+h4 {
+
+    color: black;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+}
+contenido {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    display:flex;
+}
+
+.foto{
+    height: 500px; 
+    width: 500px;
+}
+
+.claseSeccion{
+    
+    height: 500px; 
+    width: 500px;
+}
+
+.claseSeccion img{
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+
+.claseAside{
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    height: 100%; 
+    margin-left: 20px;
+    padding: 40px; 
+    width: 500px;
+}
+
+.perfil{
+    background-color: white;
+    border-radius: 0 25px 25px 25px;
+    box-shadow: 0 0 5px black;
+    column-count: 2;
+    padding: 30px 30px 30px 30px;
+    
+    
+}
+
+.contacto{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    margin: 20px 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.contacto i{
+    font-size: 50px;
+    padding: 10px 0;
+}
