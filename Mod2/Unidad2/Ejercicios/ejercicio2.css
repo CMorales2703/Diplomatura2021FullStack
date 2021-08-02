@@ -15,23 +15,26 @@
     background-color:red;
     color: white;
     height: 100px;
-    text-align: center;
-    line-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
 }
 .azul{
     background-color:blue;
     color: white;
     height: 100px;
-    text-align: center;
-    line-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
 }
 .verde{
     background-color:green;
     color: white;
     height: 100px;
-    text-align: center;
-    line-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
 }
