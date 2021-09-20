@@ -43,6 +43,7 @@ function funcionMayor(){
     {
         numeros[i] = prompt("ingrese número " + (i + 1));
         document.write("se ingreso el número " + numeros[i]);
+        document.write('<br>');
         
         mayor = parseInt(numeros[i]);
         
