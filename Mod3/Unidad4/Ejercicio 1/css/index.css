@@ -1,0 +1,27 @@
+.contenedor{
+    display: flex;
+    justify-content:left;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.cr{
+    background: red;
+}
+
+.ca{
+    background: blue;
+}
+
+.cv{
+    background: green;
+}
