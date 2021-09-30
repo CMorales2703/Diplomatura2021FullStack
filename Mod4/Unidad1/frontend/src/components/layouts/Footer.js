@@ -1,8 +1,10 @@
+
+
 const Footer = (props) => {
     return(
-        <div>
+        <footer>
             <p>Diseñado por Cristian A. Morales - &copy;2021</p>
-        </div>
+        </footer>
     )
 }
 
