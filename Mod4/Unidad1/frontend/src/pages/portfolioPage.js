@@ -1,3 +1,5 @@
+import '../styles/components/pages/portfolioPage.css';
+
 const PortfolioPage = (props) => {
     return(
     <main className="holder">

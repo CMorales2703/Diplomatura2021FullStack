@@ -1,4 +1,4 @@
-
+import '../styles/components/pages/cristianPage.css';
 
 const CristianPage = (props) => {
     return(
