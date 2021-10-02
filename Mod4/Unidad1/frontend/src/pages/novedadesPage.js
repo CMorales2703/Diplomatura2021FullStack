@@ -1,6 +1,6 @@
 const NovedadesPage = (props) => {
     return(
-        <main class="holder">
+        <main className="holder">
             <h2>Novedades</h2>
             <h3>TITULO</h3>
             <h4>Subtitulo</h4>

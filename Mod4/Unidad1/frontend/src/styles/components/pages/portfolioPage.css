@@ -1,0 +1,63 @@
+/*.color1 {color: #ccd8e0;}
+.color2 {color: #edeef6;}
+.color3 {color: #133e13;}
+.color4 {color: #546328;}
+.color5 {color: #baa683;}
+*/
+
+main h2{
+    padding: 0 1em;
+}
+.servicio{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.servicio .info{
+    width: 75%;
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 0.5em;
+}
+
+.servicio .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.servicio img{
+    width: 23%;
+    border-radius: 0.8em;
+}
+
+/*par*/
+.servicio:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info{
+    float: left;
+}
+/*par*/
+
+/*impar*/
+.servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info{
+    float: right;
+}
+/*impar*/

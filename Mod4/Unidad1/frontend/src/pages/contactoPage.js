@@ -1,31 +1,31 @@
 const contactoPage = (props) => {
     return(
-        <main class="holder">
-         <div class="columna left">
+        <main className="holder">
+         <div className="columna left">
              <h2>Contacto Rapido</h2>
-             <form action="" method="" class="formulario">
+             <form action="" method="" className="formulario">
                  <p>
-                     <label for="nombre">Nombre</label>
-                     <input type="text" name=""/>
+                     <label>Nombre</label>
+                     <input type="text" name="nombre"/>
                  </p>
                  <p>
-                    <label for="email">Email</label>
-                    <input type="text" name=""/>
+                    <label>Email</label>
+                    <input type="text" name="email"/>
                 </p>
                 <p>
-                    <label for="telefono">Telefono</label>
-                    <input type="text" name=""/>
+                    <label>Telefono</label>
+                    <input type="text" name="telefono"/>
                 </p>
                 <p>
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name=""></textarea>
+                    <label>Mensaje</label>
+                    <textarea name="mensaje"></textarea>
                 </p>
-                <p class="acciones">
+                <p className="acciones">
                     <input type="submit" value="Enviar"/>
                 </p>
              </form>
          </div>
-         <div class="columna right">
+         <div className="columna right">
              <h2>Otras vias de comunicación</h2>
              <p>Tambien puede contactarse con nosotros usando los siguientes medios:</p>
              <ul>
