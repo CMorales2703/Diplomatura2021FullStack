@@ -6,11 +6,11 @@ const Nav = (props) => {
         <nav>
             <div className="holder"> 
                 <ul>
-                    <li><NavLink activeClaseName="activo" exact to="/">Home</NavLink></li>
-                    <li><NavLink activeClaseName="activo" exact to="/cristian">Cristian</NavLink></li>
-                    <li><NavLink activeClaseName="activo" exact to="/portfolio">Portfolio</NavLink></li>
-                    <li><NavLink activeClaseName="activo" exact to="/novedades">Novedades</NavLink></li>
-                    <li><NavLink activeClaseName="activo" exact to="/contacto">Contacto</NavLink></li>
+                    <li><NavLink activeClassName="activo" exact to="/">Home</NavLink></li>
+                    <li><NavLink activeClassName="activo" exact to="/cristian">Cristian</NavLink></li>
+                    <li><NavLink activeClassName="activo" exact to="/portfolio">Portfolio</NavLink></li>
+                    <li><NavLink activeClassName="activo" exact to="/novedades">Novedades</NavLink></li>
+                    <li><NavLink activeClassName="activo" exact to="/contacto">Contacto</NavLink></li>
                 </ul>
             </div> 
         </nav>
