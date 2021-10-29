@@ -1,0 +1,104 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .holder{
+    max-width: 960px;
+    margin: 0 auto;
+    
+  }
+  
+  h2{
+    color: #baa683;
+    font-weight: 400;
+    margin: 0 0 1em;
+  }
+  
+  
+  .left{
+    float: left;
+  }
+  
+  .right{
+    float: right;
+  }
+  
+  footer{
+    background-color: #ccd8e0;
+    clear: both;
+    color: #546328;;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+/*font-family: 'Noto Sans TC', sans-serif;*/
+
+header{
+    background-color: #133e13;
+    padding: 1em 0;
+    /*1em ----- 16px*/
+}
+
+header h1{
+    color: #edeef6;
+    font-size: 2,5em;
+    font-style: italic;
+    font-weight: 100;
+    padding: 1em;
+    position: relative;
+    
+    /*bottom: 70px;*/
+    
+}
+
+header .holder {
+    display: flex;
+    align-items: center;
+}
+
+.fotoHeader{
+    
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.8em 1em 1em;
+    max-width: 15%;
+}
+
+.asd{
+    padding: 0 1em;
+}
+
+
+.contenedorForm {
+  display: flex;
+  justify-content: center;
+}
+
+.formHolder {
+  padding: 10px;
+}
+
+.msjerror {
+  color: red;
+}
+
+.bienvenido{
+  color: #133e13;
+  font-size: 20px;
+}
+
+.btnIngresa {
+  border-radius: 5px;
+  text-align: center;
+  background-color: #edeef6;
+  color: #546328;
+}
+
+.btnLogout {
+  border-radius: 5px;
+  text-align: center;
+  background-color:red;
+  color: #edeef6;
+}
