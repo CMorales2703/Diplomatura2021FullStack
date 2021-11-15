@@ -1,0 +1,18 @@
+<div>
+    <div class="holder formHolder">
+        <form action="/admin/login" method="post">
+            <div class="formHolder contenedorForm">
+                <input type="text" id="inputUser" placeholder="Usuario" name="usuario">
+            </div>
+            <div class="formHolder contenedorForm">
+                <input type="password" id="inputPassword" placeholder="Contraseña" name="password">
+            </div>
+            <div class="formHolder contenedorForm">
+                <button class="btnIngresa" type="submit">Ingresar</button>
+            </div>
+        </form>
+        {{#if error}}
+        <p class="formHolder contenedorForm msjerror">Usuario o pass incorrecto</p>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class='holder'>
+    <div class='posicionamientoForm'>
+        <h2>Agregar</h2>
+    </div>
+
+    <div class='posicionamientoForm'>
+        <form action="/admin/novedades/agregar" method="post">
+            <div>
+                <input type="text" placeholder="Titulo" name="titulo"/>
+            </div>
+            <div>
+                <textarea type="text" placeholder="Subtitulo" name="subtitulo"></textarea>
+            </div>
+            <div>
+                <textarea type="text" placeholder="Cuerpo" name="cuerpo"></textarea>
+            </div>
+            <div>
+                <button class='btnNuevo' type="submit">Agregar</button>
+            </div>
+        </form>
+        {{#if error}}
+            <p>{{message}}</p>
+        {{/if}} 
+    </div>
+    
+</div>

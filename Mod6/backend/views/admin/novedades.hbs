@@ -1,0 +1,39 @@
+<div class="holder" >
+    <div class="logoutNovedades">
+        <p>Hola {{usuario}} </p>
+        <a class="logoutNovedadesItems btnLogout" href="/admin/login/logout">Cerrar sesión</a>
+    </div>
+
+    <div>
+        
+        <div>
+            <h3>Listado de Novedades</h3>
+        </div>
+        <div>
+            <a class='btnNuevo' href="/admin/novedades/agregar">Nuevo</a>
+        </div>        
+        <div class='tablaProps'>
+            <table>
+                <thead class='tituloTabla'> 
+                    <tr>
+                        <th scope="col">#</th>
+                        <th class='tablaProps' scope="col">Titulo</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each novedades}}
+                    <tr>
+                        <th scope="row"><h2>{{id}}</h2></th>
+                        <td><h2>{{titulo}}</h2></td>
+                        <td class='BotonesAcciones'>
+                            <a class='btnEditar' href="/admin/novedades/modificar/{{id}}">editar</a>
+                            <a class='btnBorrar' href="/admin/novedades/eliminar/{{id}}">borrar</a>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
