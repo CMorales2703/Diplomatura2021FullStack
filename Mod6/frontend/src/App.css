@@ -1,0 +1,26 @@
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.holder{
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+
+h2{
+  color: #baa683;
+  font-weight: 400;
+  margin: 0 0 1em;
+}
+
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}

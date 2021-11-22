@@ -4,7 +4,7 @@
     </div>
 
     <div class='posicionamientoForm'>
-        <form action="/admin/novedades/agregar" method="post">
+        <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
             <div>
                 <input type="text" placeholder="Titulo" name="titulo"/>
             </div>
@@ -12,8 +12,12 @@
                 <textarea type="text" placeholder="Subtitulo" name="subtitulo"></textarea>
             </div>
             <div>
+                <label>Imagen: <input type='file' name='imagen' id='imagen' /></label>
+            </div>
+            <div>
                 <textarea type="text" placeholder="Cuerpo" name="cuerpo"></textarea>
             </div>
+
             <div>
                 <button class='btnNuevo' type="submit">Agregar</button>
             </div>
